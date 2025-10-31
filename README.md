@@ -1,6 +1,8 @@
 # IMOWOA
 A novel multi-objective whale optimization algorithm (IMOWOA) is proposed. The elite-oriented multi-mode adaptive perturbation (EMAP) and random single-dimensional update (RSDU) strategies are introduced to enable the whale optimization algorithm (WOA) to focus on the elite region and enhance local exploration. Then, a method for calculating the crowding distance is proposed, which integrates multi-scale neighborhoods and nonlinear weights to generate a set of high-quality and evenly distributed non-dominated solutions.
-Simply run the main function to start IMOWOA. Pay attention to the difference between crowding_distance1 and crowding_distance2. The calculation formula for the crowding distance in this case is the same as that used in NSGAII. The crowding distance 2, however, is proposed by us.
+Simply run the main function to start IMOWOA. 
+# crowding_distance
+Pay attention to the difference between crowding_distance1 and crowding_distance2. The calculation formula for the crowding distance in this case is the same as that used in NSGAII. The crowding distance 2, however, is proposed by us.
 
 The new crowding degree formula introduces multi-scale neighborhoods (i±1, i±2), global statistics (μj, σj), and nonlinear terms (exponential terms). While these designs are theoretically more comprehensive, they are also more susceptible to the following factors:
 
